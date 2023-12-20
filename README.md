@@ -1,7 +1,4 @@
 # data_warehouse_tech_stack
-
-# data_warehouse_tech_stack
-
 Environment Setup for Your AI Startup:
 
 Get your data operations in top gear! We've deployed Apache Airflow to expertly manage data flow on a Windows platform. For transforming data, we've integrated dbt into a Docker environment—think of it as a specialized kitchen for refining raw data. This ELT process leads to a structured data warehouse, acting as an organized storage hub. Ready to dive in? Check our references for detailed guidance. Use the following codes to initiate the setup:
