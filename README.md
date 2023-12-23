@@ -1,20 +1,44 @@
-# data_warehouse_tech_stack
-Environment Setup for Your AI Startup:
+ # Project Overview:
+This project was undertaken as a solo challenge from 10 Academy, aiming to revolutionize urban mobility through innovative technology. As the sole contributor, I took on the challenge of deploying UAVs (drones) to collect and analyze vehicle trajectory data. To achieve this, I strategically integrated key technologies: Airflow for seamless orchestration, DBT for agile and scalable data transformations, and Redash for intuitive data visualization.
 
-Get your data operations in top gear! We've deployed Apache Airflow to expertly manage data flow on a Windows platform. For transforming data, we've integrated dbt into a Docker environment—think of it as a specialized kitchen for refining raw data. This ELT process leads to a structured data warehouse, acting as an organized storage hub. Ready to dive in? Check our references for detailed guidance. Use the following codes to initiate the setup:
+ # Key Achievements:
 
-# Airflow Installation (Windows):
+Successfully configured Airflow using Astro CLI and Docker, creating an automated and well-orchestrated data pipeline.
 
-pip install apache-airflow
+Orchestrated the DBT environment using Cosmos, enabling collaborative and structured data transformations.
 
-# Dockerized dbt Setup:
+successfully setup Redash as a visual interface
 
-docker run --network=host -v path/to/dbt/folder:/usr/app ghcr.io/dbt-labs/dbt-postgres:latest
+ # Challenges Overcome:
 
-Apache Airflow Installation Guide: Follow this guide to set up Apache Airflow on your Windows environment.
+Addressed initial hurdles with Airflow DAG visibility through collaborative troubleshooting.
+Tackled technical setup challenges, including compatibility issues in a Windows environment and version discrepancies.
+Overcame nuanced integration challenges between Airflow and DBT, ensuring seamless alignment.
+Areas for Future Enhancement:
 
-Dockerized dbt Documentation: Dive into the official dbt documentation for Docker setup instructions and best practices.
+Improving DAG visibility in the Airflow web UI for enhanced monitoring and management.
+Expanding the development of more comprehensive data models, including predictive analytics and advanced traffic pattern forecasting.
+Fine-tuning and optimizing data transformation processes in DBT for increased efficiency.
+Note:
+This project was a solo challenge from 10 Academy. Given more time, I would have dedicated efforts to successfully settle the integration of Redash, refining the connection between Redash and the data ecosystem.
 
-Airflow DAG Configuration: Explore how to configure Airflow DAGs for optimal data orchestration.
+ # Conclusion:
+This README reflects the journey of a solo contributor in tackling the 10 Academy challenge, creating a sophisticated data ecosystem for urban mobility enhancement. As I celebrate achievements and learnings, I look forward to refining and expanding capabilities for future data-driven success.
 
-Feel free to explore these resources for detailed insights and instructions. Happy setting up!
+ # Astro CLI (Airflow)
+Start the Astro CLI web server:
+
+astro dev start
+
+This command initiates the Airflow development environment using Astro CLI. Ensure that you have Astro CLI installed and configured with the necessary settings.
+
+ # Stop the Astro CLI web server:
+
+astro dev stop
+
+Use this command to halt the running Astro CLI web server.
+
+ # Cosmos (DBT)
+Run DBT models in development:
+
+dbt run
